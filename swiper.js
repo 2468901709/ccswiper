@@ -57,8 +57,7 @@ body{
 	border-radius: 10px;
 	opacity: 0;
 }
-/* 千万不要.active,因为class="imgItem active"前一个会覆盖后一个,根本就不执行opacity :0; */
-/* 所以要让他既要imgItem又要active的时候opacity:1 */
+
 .swiper .imglist .imgItem.active{
 	opacity: 1;
 }
